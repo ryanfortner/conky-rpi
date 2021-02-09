@@ -36,3 +36,4 @@ Terminal=false
 Comment=system monitoring tool.
 Categories=Utility;" > ~/.config/autostart/conky.desktop
 ```
+*Now, you can reboot and it should launch.*
