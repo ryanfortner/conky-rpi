@@ -23,6 +23,7 @@ mkdir -p /home/pi/.local/share/fonts
 wget -O ~/fonts.tar.gz https://github.com/chunky-milk/conky-rpi/raw/main/fonts.tar.gz
 cd ~/ && tar -xvf fonts.tar.gz && mv *.ttf /home/pi/.local/share/fonts
 rm .uuid
+wget -O ~/.conky_rings.lua https://github.com/chunky-milk/conky-rpi/raw/main/conky_rings.lua
 ```
 Add conky to autostart so it will start on boot
 ```
