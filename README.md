@@ -19,7 +19,7 @@ wget -O ~/.conkyrc https://github.com/chunky-milk/conky-rpi/raw/main/conkyrc
 ```
 Create fonts directory and install fonts
 ```
-mkdir -p /home/pi/.local/share/fonts
+mkdir -p ~/.local/share/fonts
 wget -O ~/fonts.tar.gz https://github.com/chunky-milk/conky-rpi/raw/main/fonts.tar.gz
 cd ~/ && tar -xvf fonts.tar.gz && mv *.ttf /home/pi/.local/share/fonts
 rm .uuid
