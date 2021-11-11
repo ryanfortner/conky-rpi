@@ -37,4 +37,6 @@ Terminal=false
 Comment=system monitoring tool.
 Categories=Utility;" > ~/.config/autostart/conky.desktop
 ```
-*Now, you can reboot and it should launch.*
+Now, you can reboot and it should launch.
+
+[Botspot](https://github.com/Botspot/) has customized this conky theme, so that it has colors, if you're interested, install it via [Pi-apps](https://github.com/Botspot/pi-apps).
