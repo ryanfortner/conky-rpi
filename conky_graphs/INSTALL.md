@@ -10,10 +10,10 @@ I did not make the original configuration. It is a fork modified to work with Ra
 # install fonts
 mkdir setup-fonts
 cd setup-fonts
-wget https://github.com/ryanfortner/conky-rpi/raw/main/conky_graphs/resources/fonts/JetBrains_Mono.zip
+wget https://github.com/ryanfortner/conky-rpi/raw/main/conky_graphs/fonts/JetBrains_Mono.zip
 unzip JetBrains_Mono.zip && mv *.ttf ~/.local/share/fonts/
 rm -rf *
-wget https://github.com/ryanfortner/conky-rpi/raw/main/conky_graphs/resources/fonts/Krona_One.zip
+wget https://github.com/ryanfortner/conky-rpi/raw/main/conky_graphs/fonts/Krona_One.zip
 unzip Krona_One.zip && mv *.ttf ~/.local/share/fonts/
 cd .. && rm -rf setup-fonts
 
