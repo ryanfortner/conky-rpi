@@ -10,16 +10,16 @@ I did not make the original configuration. It is a fork modified to work with Ra
 # install fonts
 mkdir setup-fonts
 cd setup-fonts
-wget https://github.com/ryanfortner/conky-configuration/raw/main/conky_graphs/resources/fonts/JetBrains_Mono.zip
+wget https://github.com/ryanfortner/conky-rpi/raw/main/conky_graphs/resources/fonts/JetBrains_Mono.zip
 unzip JetBrains_Mono.zip && mv *.ttf ~/.local/share/fonts/
 rm -rf *
-wget https://github.com/ryanfortner/conky-configuration/raw/main/conky_graphs/resources/fonts/Krona_One.zip
+wget https://github.com/ryanfortner/conky-rpi/raw/main/conky_graphs/resources/fonts/Krona_One.zip
 unzip Krona_One.zip && mv *.ttf ~/.local/share/fonts/
 cd .. && rm -rf setup-fonts
 
 # setup the actual theme, and install conky, make sure to remove old .conkyrc file if there is one
 sudo apt-get update && sudo apt-get install conky-all -y
-wget -O ~/.conkyrc https://github.com/ryanfortner/conky-configuration/raw/main/conky_graphs/conkyrc
+wget -O ~/.conkyrc https://github.com/ryanfortner/conky-rpi/raw/main/conky_graphs/conkyrc
 
 # add to autostart so it will start on boot
 mkdir -p ~/.config/autostart
