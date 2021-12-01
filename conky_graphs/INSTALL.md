@@ -10,6 +10,7 @@ I did not make the original configuration. It is a fork modified to work with Ra
 # install fonts
 mkdir setup-fonts
 cd setup-fonts
+mkdir -p ~/.local/share/fonts
 wget https://github.com/ryanfortner/conky-rpi/raw/main/conky_graphs/fonts/JetBrains_Mono.zip
 unzip JetBrains_Mono.zip && mv *.ttf ~/.local/share/fonts/
 rm -rf *
