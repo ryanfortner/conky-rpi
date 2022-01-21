@@ -67,7 +67,7 @@ ${goto 230}${top name 4}${alignr 98}${top cpu 4}%
 ${goto 230}${top name 5}${alignr 98}${top cpu 5}%
 # HDD
 ${voffset 42}${alignr 230}${fs_used /home} / ${fs_size /home} root
-${voffset 2}${alignr 230}${fs_used /media/pi/A5E9-86DC/} / ${fs_size /boot/} boot
+${voffset 2}${alignr 230}${fs_used /boot/} / ${fs_size /boot/} boot
 # MEMORY
 ${voffset 60}${goto 330}${top_mem name 1}${alignr 15}${top_mem mem 1}%
 ${goto 330}${top_mem name 2}${alignr 15}${top_mem mem 2}%
